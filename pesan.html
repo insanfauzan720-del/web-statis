@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+ 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+  <body>
+
+  <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-black shadow-sm p-3">
+
+        <div class="container-fluid">
+
+            <!-- BRAND -->
+            <a class="navbar-brand fw-bold text-white" href="#">
+                PecelLele<span style="color: rgb(167, 14, 9);">KangInsan</span>
+            </a>
+
+            <!-- TOGGLER -->
+            <button class="navbar-toggler bg-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- MENU -->
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+
+                <!-- MENU BUTTON -->
+               <div class="d-flex flex-column flex-lg-row gap-2 ms-auto me-5 text-center">
+
+                    <a href="../Home/home.html"
+                        class="btn btn-outline-danger">
+                        Home
+                    </a>
+
+                    <a href="../tentang/tentang.html"
+                        class="btn btn-outline-danger">
+                        Tentang
+                    </a>
+
+                    <a href="../menu/menu.html"
+                        class="btn btn-outline-danger">
+                        Menu
+                    </a>
+
+                    <a href="../pesan/pesan.html"
+                        class="btn btn-outline-danger">
+                        Pesan
+                    </a>
+
+                    <a href="../contack/contack.html"
+                        class="btn btn-outline-danger">
+                        Contack
+                    </a>
+
+            </div>
+               
+
+                </div>
+
+        </div>
+
+    </nav>
+
+    <section class="pesan-box container-fluid mt-5">
+
+    <!-- Keranjang Pemesanan -->
+    <div class="keranjang-pesanan shadow-sm mb-5 p-4"
+        style="background:#790707; border-radius:20px; border:1px solid #730707;">
+
+        <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+
+            <div>
+                <h4 style="color:white; font-weight:700;">
+                    🛒 Keranjang Pemesanan
+                </h4>
+
+                <p style="color:#aaa; margin-bottom:0;">
+                    9 Menu dipilih
+                </p>
+            </div>
+
+            <div class="d-flex align-items-center gap-3">
+
+                <h4 style="color:#f59e0b; margin:0; font-weight:bold;">
+                    Total : Rp 180.000
+                </h4>
+
+                <button class="btn btn-warning"
+                    style="border-radius:12px; padding:10px 20px; font-weight:600;">
+                    Pesan Sekarang
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- CARD MENU -->
+    <div class="row g-4 justify-content-center">
+
+        <!-- CARD 1 -->
+        <div class="col-lg-5">
+            <div class="card border-0 shadow-sm" style="border-radius:22px; overflow:hidden;">
+                <div class="row g-0 align-items-center">
+
+                    <div class="col-md-5">
+                        <img src="pecel lele original.jpeg"
+                            class="img-fluid w-100"
+                            style="height:250px; object-fit:cover;">
+                    </div>
+
+                    <div class="col-md-7">
+                        <div class="card-body">
+
+                            <h4 style="font-weight:700;">Pecel Lele Original</h4>
+
+                            <p style="color:#777; font-size:15px;">
+                                Lele crispy sambal khas pedas
+                            </p>
+
+                            <h5 style="color:#f59e0b; font-weight:bold;">
+                                Rp 16.000
+                            </h5>
+
+                            <div class="d-flex align-items-center gap-2 mt-4">
+
+                                <button class="btn btn-outline-dark btn-sm"
+                                    style="width:35px; height:35px; border-radius:10px;">-</button>
+
+                                <span style="font-weight:600;">1</span>
+
+                                <button class="btn btn-outline-dark btn-sm"
+                                    style="width:35px; height:35px; border-radius:10px;">+</button>
+
+                                <button class="btn btn-warning btn-sm ms-auto"
+                                    style="border-radius:10px; font-weight:600; padding:8px 14px;">
+                                    + Tambah
+                                </button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="col-lg-5">
+            <div class="card border-0 shadow-sm" style="border-radius:22px; overflow:hidden;">
+                <div class="row g-0 align-items-center">
+
+                    <div class="col-md-5">
+                        <img src="pecel lele cabe hijau.jpg"
+                            class="img-fluid w-100"
+                            style="height:250px; object-fit:cover;">
+                    </div>
+
+                    <div class="col-md-7">
+                        <div class="card-body">
+
+                            <h4 style="font-weight:700;">Pecel Lele Cabe Hijau</h4>
+
+                            <p style="color:#777; font-size:15px;">
+                                Lele crispy sambal cabe hijau
+                            </p>
+
+                            <h5 style="color:#f59e0b; font-weight:bold;">
+                                Rp 18.000
+                            </h5>
+
+                            <div class="d-flex align-items-center gap-2 mt-4">
+
+                                <button class="btn btn-outline-dark btn-sm"
+                                    style="width:35px; height:35px; border-radius:10px;">-</button>
+
+                                <span style="font-weight:600;">1</span>
+
+                                <button class="btn btn-outline-dark btn-sm"
+                                    style="width:35px; height:35px; border-radius:10px;">+</button>
+
+                                <button class="btn btn-warning btn-sm ms-auto"
+                                    style="border-radius:10px; font-weight:600; padding:8px 14px;">
+                                    + Tambah
+                                </button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="col-lg-5">
+            <div class="card border-0 shadow-sm" style="border-radius:22px; overflow:hidden;">
+                <div class="row g-0 align-items-center">
+
+                    <div class="col-md-5">
+                        <img src="ayam pecel cabe.jpeg"
+                            class="img-fluid w-100"
+                            style="height:250px; object-fit:cover;">
+                    </div>
+
+                    <div class="col-md-7">
+                        <div class="card-body">
+
+                            <h4 style="font-weight:700;">Ayam Pecel Cabe</h4>
+
+                            <p style="color:#777; font-size:15px;">
+                                Ayam crispy sambal cabe hijau
+                            </p>
+
+                            <h5 style="color:#f59e0b; font-weight:bold;">
+                                Rp 22.000
+                            </h5>
+
+                            <div class="d-flex align-items-center gap-2 mt-4">
+
+                                <button class="btn btn-outline-dark btn-sm"
+                                    style="width:35px; height:35px; border-radius:10px;">-</button>
+
+                                <span style="font-weight:600;">1</span>
+
+                                <button class="btn btn-outline-dark btn-sm"
+                                    style="width:35px; height:35px; border-radius:10px;">+</button>
+
+                                <button class="btn btn-warning btn-sm ms-auto"
+                                    style="border-radius:10px; font-weight:600; padding:8px 14px;">
+                                    + Tambah
+                                </button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="col-lg-5">
+            <div class="card border-0 shadow-sm" style="border-radius:22px; overflow:hidden;">
+                <div class="row g-0 align-items-center">
+
+                    <div class="col-md-5">
+                        <img src="sambal lamongan.webp"
+                            class="img-fluid w-100"
+                            style="height:250px; object-fit:cover;">
+                    </div>
+
+                    <div class="col-md-7">
+                        <div class="card-body">
+
+                            <h4 style="font-weight:700;">Sambal Lamongan</h4>
+
+                            <p style="color:#777; font-size:15px;">
+                                Sambal khas Lamongan dengan rasa pedas dan gurih
+                            </p>
+
+                            <h5 style="color:#f59e0b; font-weight:bold;">
+                                Rp 10.000
+                            </h5>
+
+                            <div class="d-flex align-items-center gap-2 mt-4">
+
+                                <button class="btn btn-outline-dark btn-sm"
+                                    style="width:35px; height:35px; border-radius:10px;">-</button>
+
+                                <span style="font-weight:600;">1</span>
+
+                                <button class="btn btn-outline-dark btn-sm"
+                                    style="width:35px; height:35px; border-radius:10px;">+</button>
+
+                                <button class="btn btn-warning btn-sm ms-auto"
+                                    style="border-radius:10px; font-weight:600; padding:8px 14px;">
+                                    + Tambah
+                                </button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="col-lg-5">
+            <div class="card border-0 shadow-sm" style="border-radius:22px; overflow:hidden;">
+                <div class="row g-0 align-items-center">
+
+                    <div class="col-md-5">
+                        <img src="bebek pecel cabe.webp"
+                            class="img-fluid w-100"
+                            style="height:250px; object-fit:cover;">
+                    </div>
+
+                    <div class="col-md-7">
+                        <div class="card-body">
+
+                            <h4 style="font-weight:700;">Bebek Pecel Cabe</h4>
+                            <p style="color:#777; font-size:15px;">
+                                Bebek pecel dengan sambal cabe hijau
+                            </p>
+
+                            <h5 style="color:#f59e0b; font-weight:bold;">
+                                Rp 27.000
+                            </h5>
+
+                            <div class="d-flex align-items-center gap-2 mt-4">
+
+                                <button class="btn btn-outline-dark btn-sm"
+                                    style="width:35px; height:35px; border-radius:10px;">-</button>
+
+                                <span style="font-weight:600;">1</span>
+
+                                <button class="btn btn-outline-dark btn-sm"
+                                    style="width:35px; height:35px; border-radius:10px;">+</button>
+
+                                <button class="btn btn-warning btn-sm ms-auto"
+                                    style="border-radius:10px; font-weight:600; padding:8px 14px;">
+                                    + Tambah
+                                </button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="col-lg-5">
+            <div class="card border-0 shadow-sm" style="border-radius:22px; overflow:hidden;">
+                <div class="row g-0 align-items-center">
+
+                    <div class="col-md-5">
+                        <img src="pecel lele cabe hijau.jpg"
+                            class="img-fluid w-100"
+                            style="height:250px; object-fit:cover;">
+                    </div>
+
+                    <div class="col-md-7">
+                        <div class="card-body">
+
+                            <h4 style="font-weight:700;">Pecel Lele Cabe Hijau</h4>
+
+                            <p style="color:#777; font-size:15px;">
+                                Lele crispy sambal cabe hijau
+                            </p>
+
+                            <h5 style="color:#f59e0b; font-weight:bold;">
+                                Rp 18.000
+                            </h5>
+
+                            <div class="d-flex align-items-center gap-2 mt-4">
+
+                                <button class="btn btn-outline-dark btn-sm"
+                                    style="width:35px; height:35px; border-radius:10px;">-</button>
+
+                                <span style="font-weight:600;">1</span>
+
+                                <button class="btn btn-outline-dark btn-sm"
+                                    style="width:35px; height:35px; border-radius:10px;">+</button>
+
+                                <button class="btn btn-warning btn-sm ms-auto"
+                                    style="border-radius:10px; font-weight:600; padding:8px 14px;">
+                                    + Tambah
+                                </button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 7 -->
+        <div class="col-lg-5">
+            <div class="card border-0 shadow-sm" style="border-radius:22px; overflow:hidden;">
+                <div class="row g-0 align-items-center">
+
+                    <div class="col-md-5">
+                        <img src="es kosong.png"
+                            class="img-fluid w-100"
+                            style="height:250px; object-fit:cover;">
+                    </div>
+
+                    <div class="col-md-7">
+                        <div class="card-body">
+
+                            <h4 style="font-weight:700;">Es Kosong</h4>
+
+                            <p style="color:#777; font-size:15px;">
+                                Es kosong segar
+                            </p>
+
+                            <h5 style="color:#f59e0b; font-weight:bold;">
+                                Rp 5.000
+                            </h5>
+
+                            <div class="d-flex align-items-center gap-2 mt-4">
+
+                                <button class="btn btn-outline-dark btn-sm"
+                                    style="width:35px; height:35px; border-radius:10px;">-</button>
+
+                                <span style="font-weight:600;">1</span>
+
+                                <button class="btn btn-outline-dark btn-sm"
+                                    style="width:35px; height:35px; border-radius:10px;">+</button>
+
+                                <button class="btn btn-warning btn-sm ms-auto"
+                                    style="border-radius:10px; font-weight:600; padding:8px 14px;">
+                                    + Tambah
+                                </button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <!-- CARD 8 -->
+        <div class="col-lg-5">
+            <div class="card border-0 shadow-sm" style="border-radius:22px; overflow:hidden;">
+                <div class="row g-0 align-items-center">
+
+                    <div class="col-md-5">
+                        <img src="es jeruk.jpg"
+                            class="img-fluid w-100"
+                            style="height:250px; object-fit:cover;">
+                    </div>
+
+                    <div class="col-md-7">
+                        <div class="card-body">
+
+                            <h4 style="font-weight:700;">Es Jeruk</h4>
+
+                            <p style="color:#777; font-size:15px;">
+                                Es jeruk segar
+                            </p>
+
+                            <h5 style="color:#f59e0b; font-weight:bold;">
+                                Rp 10.000
+                            </h5>
+
+                            <div class="d-flex align-items-center gap-2 mt-4">
+
+                                <button class="btn btn-outline-dark btn-sm"
+                                    style="width:35px; height:35px; border-radius:10px;">-</button>
+
+                                <span style="font-weight:600;">1</span>
+
+                                <button class="btn btn-outline-dark btn-sm"
+                                    style="width:35px; height:35px; border-radius:10px;">+</button>
+
+                                <button class="btn btn-warning btn-sm ms-auto"
+                                    style="border-radius:10px; font-weight:600; padding:8px 14px;">
+                                    + Tambah
+                                </button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- CARD 9 -->
+        <div class="col-lg-5">
+            <div class="card border-0 shadow-sm" style="border-radius:22px; overflow:hidden;">
+                <div class="row g-0 align-items-center">
+
+                    <div class="col-md-5">
+                        <img src="teh manis.jpg"
+                            class="img-fluid w-100"
+                            style="height:250px; object-fit:cover;">
+                    </div>
+
+                    <div class="col-md-7">
+                        <div class="card-body">
+
+                            <h4 style="font-weight:700;">Teh Manis</h4>
+
+                            <p style="color:#777; font-size:15px;">
+                                Teh manis dingin
+                            </p>
+
+                            <h5 style="color:#f59e0b; font-weight:bold;">
+                                Rp 8.000
+                            </h5>
+
+                            <div class="d-flex align-items-center gap-2 mt-4">
+
+                                <button class="btn btn-outline-dark btn-sm"
+                                    style="width:35px; height:35px; border-radius:10px;">-</button>
+
+                                <span style="font-weight:600;">1</span>
+
+                                <button class="btn btn-outline-dark btn-sm"
+                                    style="width:35px; height:35px; border-radius:10px;">+</button>
+
+                                <button class="btn btn-warning btn-sm ms-auto"
+                                    style="border-radius:10px; font-weight:600; padding:8px 14px;">
+                                    + Tambah
+                                </button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.hero{
+  background-image: url("pecel lele.jpg");
+  width: 100%;
+  height: 120vh;
+  color: white;
+
+  padding: 50px;
+  text-align: center;
+}
